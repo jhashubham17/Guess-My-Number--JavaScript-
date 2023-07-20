@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-yellow-50" style="font-family: 'Belanosima', sans-serif;">
+
+    <!-- Headline -->
+
+    <div class="flex flex-col justify-center items-center w-full h-36  mt-16 lg:mt-0">
+
+        <!-- welcome -->
+        <p class=" welcome-text font-thin tracking-wider text-red-400">Welcome</p>
+        <hr class="border-solid border-2 border-black rounded-full w-12 h-0.1">
+        </hr>
+        <!-- game name -->
+        <h1 class="  font-serif font-extrabold text-3xl tracking-wider">Guess The Number!</h1>
+        <hr class="border-solid border-2 border-black rounded-full w-44 h-0.5">
+        </hr>
+        <!-- <p>(Between 1 and 20)</p> -->
+
+        <!-- Showing result box -->
+    </div>
+    <div class="flex justify-center items-center flex-col">
+        <div class="number-box text-9xl max-w-max h-32 px-8 rounded-lg bg-blue-50 md:px-14">?
+        </div>
+
+        <!-- Massage  -->
+        <div class="message-box  text-2xl tracking-wider font-semibold">🤔Start Guessing!..</div>
+    </div>
+
+    <!-- input-box -->
+    <div class="flex">
+        <div class="flex flex-col justify-center items-center w-1/2">
+            <input type="text" class=" guess text-7xl w-32 h-32 rounded-lg bg-blue-200 mt-12  text-center">
+        </div>
+
+        <!-- score section area -->
+        <div class="flex flex-col justify-center  items-start md:items-center ml-6  mt-10 w-1/2 ">
+            <h1 class="tracking-wider font-sans text-xl font-extrabold">👍Score: <span class="score">20</span></h1>
+            <h1 class="tracking-wider font-sans text-lg font-extrabold">🏅highscore: <span class="highscore"></span>
+            </h1>
+
+        </div>
+    </div>
+    <!-- button area -->
+    <div class="flex justify-around">
+
+        <!-- button 1 (cheack) -->
+        <button
+            class=" check-btn bg-slate-400 text-2xl py-3 px-5 rounded-xl tracking-wider font-semibold border-solid border-2 hover:bg-slate-300 w-44 mt-4 md:w-44 md:ml-5">Check</button>
+
+        <!-- button 2 ( Play-again) -->
+        <button
+            class="again-btn bg-slate-400 text-2xl py-3 px-5 rounded-xl tracking-wider font-semibold border-solid border-2 hover:bg-slate-300 w-44 mt-4 md:w-44 md:ml-20">Play
+            Again</button>
+    </div>
+    <!-- instruction area -->
+    <div>
+        <p class="tracking-wider font-semibold  text-lg flex justify-center mt-3 ">(Guess the number between 0 to 20)
+        </p>
+    </div>
+    <!--  html and tailwind- The End -->
+</body>
+<!-- add javaScript -->
+<script src="./script.js"></script>
+
+</html>

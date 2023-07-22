@@ -23,6 +23,7 @@ This is a simple implementation of the "Guess My Number" game in JavaScript. The
 
 - HTML
 - CSS
+- tailwindcss
 - JavaScript
 
 ## Features
